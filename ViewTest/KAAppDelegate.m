@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Kathryn Aplin. All rights reserved.
 //
 
+#import "KASimpleView.h"
 #import "KAAppDelegate.h"
 
 @implementation KAAppDelegate
@@ -14,7 +15,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // create view
+    CGRect frame1 = CGRectMake(50, 50, 100, 100);
+    KASimpleView *view1 = [[KASimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view1];
+    
+    // create another view
+    CGRect frame2 = CGRectMake(20, 20, 50, 50);
+    KASimpleView *view2 = [[KASimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [view1 addSubview:view2];
+    
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

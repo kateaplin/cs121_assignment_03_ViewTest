@@ -19,6 +19,7 @@
 		29AD8A1B19C134BA00D1893D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AD8A0319C134BA00D1893D /* UIKit.framework */; };
 		29AD8A2319C134BA00D1893D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AD8A2119C134BA00D1893D /* InfoPlist.strings */; };
 		29AD8A2519C134BA00D1893D /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD8A2419C134BA00D1893D /* ViewTestTests.m */; };
+		29AD8A3019C13B7900D1893D /* KASimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD8A2F19C13B7900D1893D /* KASimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		29AD8A2019C134BA00D1893D /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		29AD8A2219C134BA00D1893D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29AD8A2419C134BA00D1893D /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		29AD8A2E19C13B7900D1893D /* KASimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASimpleView.h; sourceTree = "<group>"; };
+		29AD8A2F19C13B7900D1893D /* KASimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				29AD8A0E19C134BA00D1893D /* KAAppDelegate.h */,
 				29AD8A0F19C134BA00D1893D /* KAAppDelegate.m */,
+				29AD8A2E19C13B7900D1893D /* KASimpleView.h */,
+				29AD8A2F19C13B7900D1893D /* KASimpleView.m */,
 				29AD8A1119C134BA00D1893D /* Images.xcassets */,
 				29AD8A0619C134BA00D1893D /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AD8A3019C13B7900D1893D /* KASimpleView.m in Sources */,
 				29AD8A1019C134BA00D1893D /* KAAppDelegate.m in Sources */,
 				29AD8A0C19C134BA00D1893D /* main.m in Sources */,
 			);
